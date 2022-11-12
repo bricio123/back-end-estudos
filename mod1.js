@@ -1,14 +1,14 @@
 const nome = "Fabricio";
 const sobrenome = "Sousa";
 
-const falaNome = () => {
-  console.log(nome, sobrenome);
-};
-console.log(falaNome)
+//importação comm concatenação
+const falaNome = () => nome + ' ' + sobrenome;
 
-//module.exports.nome = nome;
-//module.exports.sobrenome = sobrenome;
-//module.exports.falaNome = falaNome;
+
+module.exports.NOME = nome;
+module.exports.nome = nome;
+module.exports.sobrenome = sobrenome;
+module.exports.falaNome = falaNome;
 
 
 exports.nome = nome;
