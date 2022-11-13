@@ -1,3 +1,4 @@
-const multipilcacao = require('./mod');
+const aaa = require('./mod');
 
-console.log(multipilcacao(2,2));
+const cachorrinho = new aaa('Dog');
+cachorrinho.latir()
