@@ -1,4 +1,12 @@
-const aaa = require('./mod');
+//const Cachorro = require('./Z/mod2');
 
-const cachorrinho = new aaa('Dog');
-cachorrinho.latir()
+//const c1 = new Cachorro("Dog")
+
+//c1.latir();
+
+
+//variaveis de caminho
+
+//const path = require('path');
+//aqui usamos o dirname para voltar as pastas
+//console.log(path.resolve(__dirname, '..', '..', 'arquivos', 'images', ));
