@@ -30,6 +30,9 @@ class Pessoa{
     this.nome = nome;
   }
 }
-module.exports.nome = 'Luiz';
-exports.Pessoa = Pessoa;
-this.sobrenome = 'Qualquer coisa que eu quiser.'
+
+
+
+//module.exports.nome = 'Luiz';
+//exports.Pessoa = Pessoa;
+//this.sobrenome = 'Qualquer coisa que eu quiser.'
